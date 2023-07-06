@@ -415,86 +415,86 @@ height: auto;
 
   /* 테스트 중입니다. */
   /* INPUT 가리기 */
-  .gallery_section_sec input[id*="slide_section_sec"] {display:none;}
+  .gallery_section_first input[id*="slide_section_sec"] {display:none;}
 
   /* 슬라이드 영역 - max-width 크기를 조절해주면 됩니다*/
-  .gallery_section_sec .slidewrap_section_sec {max-width:1440px; margin:0 auto;overflow:hidden;}
-  .gallery_section_sec .slidelist_section_sec {white-space:nowrap;font-size:0;}
-  .gallery_section_sec .slidelist_section_sec > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
-  .gallery_section_sec .slidelist_section_sec > li > a {display:block;position:relative;overflow:hidden;} /* 화살표 화면 밖으로 나가면 안보이도록 OVERFLOW로 가림처리 */
-  .gallery_section_sec .slidelist_section_sec > li > a img {width:100%;}
+  .gallery_section_first .slidewrap_section_first {max-width:1440px; margin:0 auto;overflow:hidden;}
+  .gallery_section_first .slidelist_section_first {white-space:nowrap;font-size:0;}
+  .gallery_section_first .slidelist_section_first > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
+  .gallery_section_first .slidelist_section_first > li > a {display:block;position:relative;overflow:hidden;} /* 화살표 화면 밖으로 나가면 안보이도록 OVERFLOW로 가림처리 */
+  .gallery_section_first .slidelist_section_first > li > a img {width:100%;}
 
   /* 좌우로 넘기는 LABEL버튼에 대한 스타일 */
-  .gallery_section_sec .slidelist_section_sec label {position:absolute;z-index:1;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
-  .gallery_section_sec .slidelist_section_sec .left_1 {left:-300px;background:url('https://gwork.ecn.cdn.infralab.net//Assets/images/left.png') center center / 100% no-repeat;} /* LEFT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
-  .gallery_section_sec .slidelist_section_sec .right_1 {right:-300px;background:url('https://gwork.ecn.cdn.infralab.net//Assets/images/right.png') center center / 100% no-repeat;} /* RIGHT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
+  .gallery_section_first .slidelist_section_first label {position:absolute;z-index:1;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
+  .gallery_section_first .slidelist_section_first .left_1 {left:-300px;background:url('https://gwork.ecn.cdn.infralab.net//Assets/images/left.png') center center / 100% no-repeat;} /* LEFT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
+  .gallery_section_first .slidelist_section_first .right_1 {right:-300px;background:url('https://gwork.ecn.cdn.infralab.net//Assets/images/right.png') center center / 100% no-repeat;} /* RIGHT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
 
   /* INPUT이 체크되면 변화값이 li까지 전달되는 스타일 */
-  .gallery_section_sec input[id="slide_section_sec01"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(0%);}
-  .gallery_section_sec input[id="slide_section_sec02"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-100%);}
-  .gallery_section_sec input[id="slide_section_sec03"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-200%);}
-  .gallery_section_sec input[id="slide_section_sec04"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-300%);}
-  .gallery_section_sec input[id="slide_section_sec05"]:checked ~ .slidewrap_section_sec .slidelis_section_sec > li {transform:translateX(-400%);}
-  .gallery_section_sec input[id="slide_section_sec06"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-500%);}
-  .gallery_section_sec input[id="slide_section_sec07"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-600%);}
-  .gallery_section_sec input[id="slide_section_sec08"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-700%);}
-  .gallery_section_sec input[id="slide_section_sec09"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-800%);}
-  .gallery_section_sec input[id="slide_section_sec10"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-900%);}
-  .gallery_section_sec input[id="slide_section_sec11"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-1000%);}
-  .gallery_section_sec input[id="slide_section_sec12"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-1100%);}
-  .gallery_section_sec input[id="slide_section_sec13"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-1200%);}
-  .gallery_section_sec input[id="slide_section_sec14"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-1300%);}
-  .gallery_section_sec input[id="slide_section_sec15"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-1400%);}
-  .gallery_section_sec input[id="slide_section_sec16"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-1500%);}
-  .gallery_section_sec input[id="slide_section_sec17"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-1600%);}
-  .gallery_section_sec input[id="slide_section_sec18"]:checked ~ .slidewrap_section_sec .slidelist_section_sec > li {transform:translateX(-1700%);}
+  .gallery_section_first input[id="slide_section_sec01"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(0%);}
+  .gallery_section_first input[id="slide_section_sec02"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-100%);}
+  .gallery_section_first input[id="slide_section_sec03"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-200%);}
+  .gallery_section_first input[id="slide_section_sec04"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-300%);}
+  .gallery_section_first input[id="slide_section_sec05"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-400%);}
+  .gallery_section_first input[id="slide_section_sec06"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-500%);}
+  .gallery_section_first input[id="slide_section_sec07"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-600%);}
+  .gallery_section_first input[id="slide_section_sec08"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-700%);}
+  .gallery_section_first input[id="slide_section_sec09"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-800%);}
+  .gallery_section_first input[id="slide_section_sec10"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-900%);}
+  .gallery_section_first input[id="slide_section_sec11"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-1000%);}
+  .gallery_section_first input[id="slide_section_sec12"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-1100%);}
+  .gallery_section_first input[id="slide_section_sec13"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-1200%);}
+  .gallery_section_first input[id="slide_section_sec14"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-1300%);}
+  .gallery_section_first input[id="slide_section_sec15"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-1400%);}
+  .gallery_section_first input[id="slide_section_sec16"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-1500%);}
+  .gallery_section_first input[id="slide_section_sec17"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-1600%);}
+  .gallery_section_first input[id="slide_section_sec18"]:checked ~ .slidewrap_section_first .slidelist_section_first > li {transform:translateX(-1700%);}
 
   /* INPUT이 체크되면 변화값이 LEFT,RIGHT에 전달되는 스타일 */
-  .gallery_section_sec input[id="slide_section_sec01"]:checked ~ .slidewrap_section_sec li:nth-child(1) .left_1 {left:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec01"]:checked ~ .slidewrap_section_sec li:nth-child(1) .right_1 {right:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec02"]:checked ~ .slidewrap_section_sec li:nth-child(2) .left_1 {left:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec02"]:checked ~ .slidewrap_section_sec li:nth-child(2) .right_1 {right:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec03"]:checked ~ .slidewrap_section_sec li:nth-child(3) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec03"]:checked ~ .slidewrap_section_sec li:nth-child(3) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec01"]:checked ~ .slidewrap_section_first li:nth-child(1) .left_1 {left:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec01"]:checked ~ .slidewrap_section_first li:nth-child(1) .right_1 {right:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec02"]:checked ~ .slidewrap_section_first li:nth-child(2) .left_1 {left:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec02"]:checked ~ .slidewrap_section_first li:nth-child(2) .right_1 {right:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec03"]:checked ~ .slidewrap_section_first li:nth-child(3) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec03"]:checked ~ .slidewrap_section_first li:nth-child(3) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
-  .gallery_section_sec input[id="slide_section_sec04"]:checked ~ .slidewrap_section_sec li:nth-child(4) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec04"]:checked ~ .slidewrap_section_sec li:nth-child(4) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec04"]:checked ~ .slidewrap_section_first li:nth-child(4) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec04"]:checked ~ .slidewrap_section_first li:nth-child(4) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
-  .gallery_section_sec input[id="slide_section_sec05"]:checked ~ .slidewrap_section_sec li:nth-child(5) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec05"]:checked ~ .slidewrap_section_sec li:nth-child(5) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec05"]:checked ~ .slidewrap_section_first li:nth-child(5) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec05"]:checked ~ .slidewrap_section_first li:nth-child(5) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
-  .gallery_section_sec input[id="slide_section_sec06"]:checked ~ .slidewrap_section_sec li:nth-child(6) .left_1 {left:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec06"]:checked ~ .slidewrap_section_sec li:nth-child(6) .right_1 {right:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec07"]:checked ~ .slidewrap_section_sec li:nth-child(7) .left_1 {left:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec07"]:checked ~ .slidewrap_section_sec li:nth-child(7) .right_1 {right:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec08"]:checked ~ .slidewrap_section_sec li:nth-child(8) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec08"]:checked ~ .slidewrap_section_sec li:nth-child(8) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec06"]:checked ~ .slidewrap_section_first li:nth-child(6) .left_1 {left:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec06"]:checked ~ .slidewrap_section_first li:nth-child(6) .right_1 {right:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec07"]:checked ~ .slidewrap_section_first li:nth-child(7) .left_1 {left:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec07"]:checked ~ .slidewrap_section_first li:nth-child(7) .right_1 {right:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec08"]:checked ~ .slidewrap_section_first li:nth-child(8) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec08"]:checked ~ .slidewrap_section_first li:nth-child(8) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
-  .gallery_section_sec input[id="slide_section_sec09"]:checked ~ .slidewrap_section_sec li:nth-child(9) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec09"]:checked ~ .slidewrap_section_sec li:nth-child(9) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec09"]:checked ~ .slidewrap_section_first li:nth-child(9) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec09"]:checked ~ .slidewrap_section_first li:nth-child(9) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
-  .gallery_section_sec input[id="slide_section_sec10"]:checked ~ .slidewrap_section_sec li:nth-child(10) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec10"]:checked ~ .slidewrap_section_sec li:nth-child(10) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec10"]:checked ~ .slidewrap_section_first li:nth-child(10) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec10"]:checked ~ .slidewrap_section_first li:nth-child(10) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
-  .gallery_section_sec input[id="slide_section_sec11"]:checked ~ .slidewrap_section_sec li:nth-child(11) .left_1 {left:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec11"]:checked ~ .slidewrap_section_sec li:nth-child(11) .right_1 {right:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec12"]:checked ~ .slidewrap_section_sec li:nth-child(12) .left_1 {left:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec12"]:checked ~ .slidewrap_section_sec li:nth-child(12) .right_1 {right:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec13"]:checked ~ .slidewrap_section_sec li:nth-child(13) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec13"]:checked ~ .slidewrap_section_sec li:nth-child(13) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec11"]:checked ~ .slidewrap_section_first li:nth-child(11) .left_1 {left:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec11"]:checked ~ .slidewrap_section_first li:nth-child(11) .right_1 {right:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec12"]:checked ~ .slidewrap_section_first li:nth-child(12) .left_1 {left:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec12"]:checked ~ .slidewrap_section_first li:nth-child(12) .right_1 {right:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec13"]:checked ~ .slidewrap_section_first li:nth-child(13) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec13"]:checked ~ .slidewrap_section_first li:nth-child(13) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
-  .gallery_section_sec input[id="slide_section_sec14"]:checked ~ .slidewrap_section_sec li:nth-child(14) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec14"]:checked ~ .slidewrap_section_sec li:nth-child(14) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec14"]:checked ~ .slidewrap_section_first li:nth-child(14) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec14"]:checked ~ .slidewrap_section_first li:nth-child(14) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
-  .gallery_section_sec input[id="slide_section_sec15"]:checked ~ .slidewrap_section_sec li:nth-child1(15) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec15"]:checked ~ .slidewrap_section_sec li:nth-child(15) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec15"]:checked ~ .slidewrap_section_first li:nth-child1(15) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec15"]:checked ~ .slidewrap_section_first li:nth-child(15) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
-  .gallery_section_sec input[id="slide_section_sec16"]:checked ~ .slidewrap_section_sec li:nth-child(16) .left_1 {left:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec16"]:checked ~ .slidewrap_section_sec li:nth-child(16) .right_1 {right:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec17"]:checked ~ .slidewrap_section_sec li:nth-child(17) .left_1 {left:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec17"]:checked ~ .slidewrap_section_sec li:nth-child(17) .right_1 {right:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec18"]:checked ~ .slidewrap_section_sec li:nth-child(18) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
-  .gallery_section_sec input[id="slide_section_sec18"]:checked ~ .slidewrap_section_sec li:nth-child(18) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec16"]:checked ~ .slidewrap_section_first li:nth-child(16) .left_1 {left:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec16"]:checked ~ .slidewrap_section_first li:nth-child(16) .right_1 {right:30px;transition:all .35s ease .5s;} /* 1번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec17"]:checked ~ .slidewrap_section_first li:nth-child(17) .left_1 {left:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec17"]:checked ~ .slidewrap_section_first li:nth-child(17) .right_1 {right:30px;transition:all .35s ease .5s;} /* 2번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec18"]:checked ~ .slidewrap_section_first li:nth-child(18) .left_1 {left:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 왼쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
+  .gallery_section_first input[id="slide_section_sec18"]:checked ~ .slidewrap_section_first li:nth-child(18) .right_1 {right:30px;transition:all .35s ease .5s;} /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
   </style>
 
 
@@ -642,7 +642,7 @@ Version 1.0.5
 <section data-v-53ecfcab="" data-v-1644f0b2="" class="gutter main-grid md:items-center" pageprops="[object Object]" type="TeaserBlock">
   <div data-v-53ecfcab="" class="relative col-span-12 overflow-hidden md:col-span-6 2xl:col-span-5 md:col-start-1 2xl:col-start-2">
     <figure data-v-3b8ceadb="" data-v-53ecfcab="">
-      <div  class="gallery_section_sec" >
+      <div  class="gallery_section_first" >
         <input type="radio" name="slide_section_sec" id="slide_section_sec01" checked>
         <input type="radio"  name="slide_section_sec" id="slide_section_sec02">
         <input type="radio"  name="slide_section_sec" id="slide_section_sec03">
@@ -665,8 +665,8 @@ Version 1.0.5
         <input type="radio"  name="slide_section_sec" id="slide_section_sec17">
         <input type="radio"  name="slide_section_sec" id="slide_section_sec18">
         
-        <div class="slidewrap_section_sec">
-          <ul class="slidelist_section_sec">
+        <div class="slidewrap_section_first">
+          <ul class="slidelist_section_first">
             <li>
               <a>
                 <label for="slide_section_sec18" class="left_1"></label>
